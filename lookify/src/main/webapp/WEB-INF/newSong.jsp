@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%> 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Selected Song: <c:out value"${song.title}"/></title>
+<title>New Song</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
@@ -20,12 +21,14 @@
 				<h3>Title:</h3>
 				<h3>Artist:</h3>
 				<h3>Rating (1 - 10):</h3>
-				<h3><a href="/songs/${song.id}/delete">Delete</a></h3>
 			</div>
 			<div class="col">
-				<h3><c:out value="${song.title}"/></h3>
-				<h3><c:out value="${song.artist}"/></h3>
-				<h3><c:out value="${song.rating}"/></h3>
+				<form:form action="" method="post" modelAttribute="song">
+					<form:input path="title" placeholder="Title of Song"/>
+					<form:input path="artist" placeholder="Artist of Song"/>
+					<form:input path="rating" placeholder="Rating"/>
+					<form:button type="submit">Add Song</form:button>
+				</form:form>
 			</div>
 		</div>
 	</div>
