@@ -408,3 +408,69 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:27:40.629
 !MESSAGE executing callback sts4.classpath.TiZcuFdx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:28.443
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TiZcuFdx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:28.444
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TiZcuFdx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:28.444
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:28.452
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TiZcuFdx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:31.819
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:31.820
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6924ff83[org.springframework.tooling.boot.ls:1.23.0.202010230633(id=673)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:31.821
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.434
+!MESSAGE Boot LS startup time from start to initialized: 2611ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.549
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qpryHDVBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.550
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.550
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.551
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.552
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qpryHDVB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.558
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.563
+!MESSAGE buffering callback sts4.classpath.qpryHDVB lookify false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.564
+!MESSAGE executing callback sts4.classpath.qpryHDVB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:34.591
+!MESSAGE executing callback sts4.classpath.qpryHDVB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:42.322
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qpryHDVB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:42.323
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qpryHDVB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:42.323
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 11:31:42.324
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qpryHDVB => OK
