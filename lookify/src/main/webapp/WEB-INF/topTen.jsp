@@ -16,7 +16,7 @@
   		<div class="row gy-5">
     		<div class="col-6">
       			<div class="p-3 border bg-light">
-      				<c:forEach value="${topTen}" var="song">
+      				<c:forEach items="${topTen}" var="song">
       					<p>${song.rating} - <a>${song.title}</a> - ${song.artist}</p>
       				</c:forEach>
       			</div>
