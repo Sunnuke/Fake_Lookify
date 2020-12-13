@@ -9,11 +9,11 @@
 </head>
 <body>
 	<div class="container">
-		<h1 class="text-center">>Welcome to Lookify!</h1>
+		<h1 class="text-center">Welcome to Lookify!</h1>
 		<div id="emailHelp" class="form-text text-center">Lol A fake Spotify demo!.</div>
 	</div>
 	<div class="container">
-		<a class="text-center" href="/dashboard">Start Looking!</a>
+		<p class="text-center"><a href="/dashboard">Start Looking!</a></p>
 	</div>
 </body>
 </html>

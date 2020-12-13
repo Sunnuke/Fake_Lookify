@@ -19,10 +19,10 @@
 			<a href="/search/topTen">Top Songs</a>
 			</div>
 			<div class="col">
-				<form:form action="" method="post" modelAttribute="search">
-					<form:input type="text" path="name"/>
-					<form:button type="submit">Search</form:button>
-				</form:form>
+				<form action="/search/" method="get">
+					<input type="text" name="artist">
+					<button type="submit">Search</button>
+				</form>
 			</div>
 		</div>
 		<table class="table table-striped">
@@ -36,7 +36,7 @@
 			<tbody>
 				<c:forEach items="${songs}" var="song">
 					<tr>
-						<td><a href="/songs/${song.title}"><c:out value="${song.title}"/></a></td>
+						<td><a href="/songs/${song.id}"><c:out value="${song.title}"/></a></td>
 						<td><c:out value="${song.rating}"/></td>
 						<td><a href="/songs/${song.id}/delete">delete</a></td>
 					</tr>

@@ -13,13 +13,13 @@
 	<div class="container">
 		<div class="row align-items-start">
 			<div class="col">
-				<h2>Songs by artist: <c:out value="${search}"/></h2>
+				<h2>Songs by artist: <br><c:out value="${search}"/></h2>
 			</div>
 			<div class="col">
-				<form:form action="" method="post" modelAttribute="search">
-					<form:input type="text" path="name"/>
-					<form:button type="submit">New Search</form:button>
-				</form:form>
+				<form action="/search/" method="get">
+					<input type="text" name="artist">
+					<button type="submit">Search</button>
+				</form>
 			</div>
 			<div class="col justify-content-end">
 				<a href="/dashboard">Dashboard</a>

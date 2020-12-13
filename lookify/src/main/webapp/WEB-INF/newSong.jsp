@@ -11,9 +11,10 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row justify-content-end">
-			<div>
-				<a href="/dashboard"></a>
+		<div class="row align-items-start">
+		<div class="col"><h2>New Song:</h2></div>
+			<div class="col">
+				<a href="/dashboard">Dashboard</a>
 			</div>
 		</div>
 		<div class="row">
@@ -23,11 +24,11 @@
 				<h3>Rating (1 - 10):</h3>
 			</div>
 			<div class="col">
-				<form:form action="" method="post" modelAttribute="song">
-					<form:input path="title" placeholder="Title of Song"/>
-					<form:input path="artist" placeholder="Artist of Song"/>
-					<form:input path="rating" placeholder="Rating"/>
-					<form:button type="submit">Add Song</form:button>
+				<form:form action="/dashboard" method="post" modelAttribute="song">
+					<form:input path="title" placeholder="Title of Song"/><br>
+					<br><form:input path="artist" placeholder="Artist of Song"/><br>
+					<br><form:input type="number" path="rating" placeholder="Rating"/><br>
+					<br><form:button type="submit">Add Song</form:button><br>
 				</form:form>
 			</div>
 		</div>

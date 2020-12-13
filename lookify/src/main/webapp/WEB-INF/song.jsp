@@ -5,14 +5,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Selected Song: <c:out value"${song.title}"/></title>
+<title>Selected Song: <c:out value="${song.title}"/></title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
 		<div class="row justify-content-end">
-			<div>
-				<a href="/dashboard"></a>
+			<div class="col">
+				<h2>Selected Song: </h2>
+			</div>
+			<div class="col">
+				<a href="/dashboard">Dashboard</a>
 			</div>
 		</div>
 		<div class="row">
